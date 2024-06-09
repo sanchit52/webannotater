@@ -1,0 +1,67 @@
+{
+   "action": {
+      "default_icon": {
+         "128": "images/128.png",
+         "16": "images/16.png",
+         "48": "images/48.png"
+      },
+      "default_popup": "src/popup/index.html"
+   },
+   "background": {
+      "service_worker": "background.js",
+      "type": "module"
+   },
+   "commands": {
+      "change-color-to-cyan": {
+         "description": "Change highlighter color to blue"
+      },
+      "change-color-to-dark": {
+         "description": "Change highlighter color to dark"
+      },
+      "change-color-to-lime": {
+         "description": "Change highlighter color to green"
+      },
+      "change-color-to-magenta": {
+         "description": "Change highlighter color to pink"
+      },
+      "change-color-to-yellow": {
+         "description": "Change highlighter color to yellow"
+      },
+      "execute-highlight": {
+         "description": "Highlight selected text",
+         "suggested_key": {
+            "default": "Alt+H",
+            "mac": "MacCtrl+H"
+         }
+      },
+      "toggle-highlighter-cursor": {
+         "description": "Toggle the highlighter cursor"
+      }
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "css": [ "src/contentScripts/hoverTools/index.css" ],
+      "js": [ "lib/jquery-2.1.3.min.js", "contentScript.js" ],
+      "matches": [ "<all_urls>" ]
+   } ],
+   "content_security_policy": {
+      "extension_pages": "script-src 'self'; object-src 'self'"
+   },
+   "default_locale": "en",
+   "description": "__MSG_extension_description__",
+   "host_permissions": [ "\u003Call_urls>" ],
+   "icons": {
+      "128": "images/128.png",
+      "16": "images/16.png",
+      "48": "images/48.png"
+   },
+   "manifest_version": 3,
+   "name": "__MSG_extension_name__",
+   "permissions": [ "contextMenus", "scripting", "storage" ],
+   "short_name": "__MSG_extension_short_name__",
+   "version": "1.0",
+   "web_accessible_resources": [ {
+      "matches": [ "<all_urls>" ],
+      "resources": [ "images/*.png", "images/*.svg", "src/contentScripts/*" ]
+   } ]
+}

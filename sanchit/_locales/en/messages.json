@@ -1,0 +1,118 @@
+{
+   "add": {
+      "description": "option",
+      "message": "Add"
+   },
+   "cancel": {
+      "description": "popup",
+      "message": "Cancel"
+   },
+   "change_highlights_text_color": {
+      "description": "popup",
+      "message": "Change text color"
+   },
+   "confirm": {
+      "description": "popup",
+      "message": "Confirm"
+   },
+   "copy": {
+      "description": "popup",
+      "message": "Copy"
+   },
+   "error_highlights_message": {
+      "description": "popup",
+      "message": "There was an error loading your highlights. Please try refreshing the page."
+   },
+   "extension_description": {
+      "description": "Description of extension",
+      "message": "Highlight text on web page with a simple right-click and keyboard shortcut. Custom highlight color. Saves highlights on your device."
+   },
+   "extension_name": {
+      "description": "Extension name",
+      "message": "Super Highlighter"
+   },
+   "extension_short_name": {
+      "description": "Extension short name",
+      "message": "Super Highlighter"
+   },
+   "highlights_color": {
+      "description": "popup",
+      "message": "Highlight Color:"
+   },
+   "highlights_cusor": {
+      "description": "popup",
+      "message": "Toggle Cursor Mode"
+   },
+   "highlights_text_color": {
+      "description": "popup",
+      "message": "Text Color:"
+   },
+   "logo_text": {
+      "description": "popup",
+      "message": "Super Highlighter"
+   },
+   "lost_highlights_message": {
+      "description": "popup",
+      "message": "Lost highlights on this page:"
+   },
+   "more_colors": {
+      "description": "popup",
+      "message": "More Colors"
+   },
+   "no_highlights_message": {
+      "description": "popup",
+      "message": "There are no highlights on this page"
+   },
+   "remove": {
+      "description": "popup",
+      "message": "Remove"
+   },
+   "remove_tips": {
+      "description": "popup",
+      "message": "Are you sure to remove all highlights on the page?"
+   },
+   "reset": {
+      "description": "option",
+      "message": "Reset"
+   },
+   "select_favorite_color": {
+      "description": "option",
+      "message": "Select and add your favorite colors"
+   },
+   "set_shotcut": {
+      "description": "option",
+      "message": "Set shortcut keys"
+   },
+   "shortcut_color1": {
+      "description": "option",
+      "message": "Toggle Color1"
+   },
+   "shortcut_color2": {
+      "description": "option",
+      "message": "Toggle Color2"
+   },
+   "shortcut_color3": {
+      "description": "option",
+      "message": "Toggle Color3"
+   },
+   "shortcut_color4": {
+      "description": "option",
+      "message": "Toggle Color4"
+   },
+   "shortcut_color5": {
+      "description": "option",
+      "message": "Toggle Color5"
+   },
+   "shortcut_color6": {
+      "description": "option",
+      "message": "Toggle Color6"
+   },
+   "shortcut_execute": {
+      "description": "option",
+      "message": "Highlight Text"
+   },
+   "shortcut_toggle": {
+      "description": "option",
+      "message": "Toggle Cursor Mode"
+   }
+}
